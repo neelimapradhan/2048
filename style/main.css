@@ -316,7 +316,7 @@ hr {
     
     background: url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/1.jpg?raw=true);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
-    font-size: 0px; }
+    font-size: 0px }
     
     
   .tile.tile-4 .tile-inner {
@@ -324,51 +324,35 @@ hr {
     background: url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/2.jpg?raw=true);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
     font-size: 0px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-4 .tile-inner {
-        font-size: 25px; } }
+    
   .tile.tile-8 .tile-inner {
    
   background: url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/3.jpg?raw=true); 
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 0px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-8 .tile-inner {
-        font-size: 25px; } }
+   
   .tile.tile-16 .tile-inner {
    
    background: url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/4.jpg?raw=true); 
    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 0px;}
-    @media screen and (max-width: 520px) {
-      .tile.tile-16 .tile-inner {
-        color: #f9f6f2
-        font-size: 25px; } }
+    
   .tile.tile-32 .tile-inner {
    background: url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/5.jpg?raw=true);
    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 0px;}
-    @media screen and (max-width: 520px) {
-      .tile.tile-32 .tile-inner {
-        color: #f9f6f2
-        font-size: 25px; } }
+    
   .tile.tile-64 .tile-inner {
     background: url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/6.jpg?raw=true); 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 0px;}
-    @media screen and (max-width: 520px) {
-      .tile.tile-64 .tile-inner {
-        color: #f9f6f2
-        font-size: 25px; } }
+   
   .tile.tile-128 .tile-inner {
     color: #f9f6f2
-   
- background: url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/7.jpg?raw=true);
+    background: url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/7.jpg?raw=true);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 0px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+    
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background:url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/8.jpg?raw=true);
@@ -386,7 +370,6 @@ hr {
         font-size: 1px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
-    background: #edc53f;
     background: url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/9.jpg?raw=true);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 0px; }
@@ -395,7 +378,6 @@ hr {
         font-size: 1px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
-    background: #edc22e;
     background: url(https://github.com/neelimapradhan/getneelima/blob/gh-pages/10.jpg?raw=true);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 0px; }
@@ -730,8 +712,7 @@ hr {
     -moz-transform: translate(202px, 202px);
     transform: translate(202px, 202px); }
 
-  .tile .tile-inner {
-    font-size: 35px; }
+
 
   .game-message p {
     font-size: 30px !important;
